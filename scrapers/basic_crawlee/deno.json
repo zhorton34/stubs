@@ -1,0 +1,10 @@
+{
+  "name": "@findhow/stubs/scrapers/basic_crawlee",
+  "tasks": {
+    "dev:watch": "deno run --watch main.ts",
+    "scrape": "deno run --allow-net --allow-write --allow-sys --allow-run --allow-env --allow-read mod.ts"
+  },
+  "imports": {
+    "npm:": "https://jspm.dev/"
+  }
+}
